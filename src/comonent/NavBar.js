@@ -29,14 +29,14 @@ const Navbar = ({ user }) => {
                 {/* Brand and Search */}
                 <div className="flex items-center justify-between w-full md:w-auto space-x-2">
                     {/* Logo Image */}
-                    <img
-                        src="/images/mymeesho.png" // make sure it's placed in the /public/images folder
+                    {/* <img
+                        src="/images/logopng.png" // make sure it's placed in the /public/images folder
                         alt="MyMeesho Logo"
-                        className="w-14 h-12 object-contain"
-                    />
+                        className="w-18 h-14"
+                    /> */}
 
                     {/* Brand Name */}
-                    <Link to="/" className="text-2xl font-bold text-purple-700">
+                    <Link to="/" className="text-2xl font-bold shrikhand-regular">
                         MyMeesho
                     </Link>
                 </div>
